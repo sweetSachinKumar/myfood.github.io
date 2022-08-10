@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+
+/* Css variable */
+:root{
+    --nvh:35px;
+
+}
+
+/* Navigation Bar  */
+.navbar{
+    display: flex;
+    align-items: center ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    
+}
+
+.navbar:before{
+    content: "";
+    /* background-color: rgba(0, 0, 0, 0.199); */
+    background-color: black;
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* Logo and Image  */
+.logo{
+margin: 24px 23px;
+}
+.logo img{
+
+    height: 50px;
+}
+
+/* List style  */
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 10px 10px;
+
+}
+.navigation li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 4px 17px;
+    color: white;
+
+}
+.navigation li a:hover{
+    border: 2px solid orangered;
+    border-radius: 20px;
+    background-color:black;
+    color: white ;
+
+}
+
+
+/* Home Section  */
+.width-m{
+    width: 100%;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    /* padding: 2px 200px; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    width: 100%;
+    line-height: 1.5;
+}
+
+#home::before{
+    content: "";
+    background: url('../img/banner.jpg') no-repeat center center/cover;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+#home h1{
+    color: white;
+    font-size: 4rem;
+}
+#home p{
+    color: white;
+    font-size: 25px;
+}
+.h-primary{
+    font-size: 2.5rem;
+    padding: 12px;
+    text-align: center;
+
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    padding: 5px 20px;
+    background-color: orangered;
+    border-radius: 10px;
+    border: 2px solid red;
+    color: white;
+
+    cursor: pointer;
+    margin: 17px;
+    font-size: 2rem;
+}
+.btn:hover{
+    background: orange;
+    border:2px solid wheat;
+    color: white;
+
+}
+
+.box img{
+    height: 135px;
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 49px;
+}
+
+
+#services{
+    display: flex;
+    
+}
+#services .box{
+    border: 2px solid blue;
+    background-color: rgba(254, 91, 32,0.8);
+    margin: 15px auto;
+    width: 70vw; 
+    border-radius: 30px;
+    padding: 36px;
+}
+.services-container{
+    margin-top: 85px;
+}
+ 
+
+
+
+#client-section{
+height: 300px;
+margin-top: 100px;
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.client-item{
+    margin: 20px;
+}
+.client-item img{
+    height: 100px;
+
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(white,pink);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.contact{
+    height: 70%;
+    /* margin-top: 100px; */
+    /* background-color: red; */
+    position: relative;
+}
+.contact h1{
+    padding: 40px;
+}
+
+.contact::before{
+    content: "";
+    /* background: linear-gradient(blue,white); */
+   background: radial-gradient(#fff,#1d9ed9);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+} 
+
+#contact-box{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group{
+    font-size: 1.8rem;
+}
+input{
+    width: 70%;
+    font-size: 1.4rem;
+    border-radius: 11px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+}

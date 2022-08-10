@@ -1,0 +1,71 @@
+ *{
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden;
+ }
+ 
+ 
+ 
+ /* Navbar   */
+
+
+
+ .logo img{
+     height: 30px;
+ }
+ .navigation li a{
+     font-size: 16px;
+ }
+
+
+
+
+
+
+
+
+/* Home? */
+
+#home{
+    margin-top: 100px;
+    line-height: 1.2;
+    height: 50vh;
+}
+#home::before{
+}
+
+#home h1{
+    font-size: 3rem;
+
+}
+#home p{
+    font-size: 17px;
+    text-align: center;
+}
+
+#services{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+}
+
+
+
+/* contact */
+textarea{
+    width: 100%;
+}
+.client-item img {
+    height: 37px;
+}
+.client-item {
+    margin: 3px;
+}
+input {
+    width: 100%;}
+
+.btn{
+    font-size: 1.4;
+}
+ 
