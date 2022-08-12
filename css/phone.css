@@ -22,7 +22,9 @@
 
 
 
-
+.navigation li a{
+     padding:0;
+}
 
 /* Home? */
 
